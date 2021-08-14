@@ -1,0 +1,20 @@
+{
+  "name": "simple-room-chat-app",
+  "version": "1.0.0",
+  "description": "simple room chat with socket io",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nurhudaaa/simple-room-chat-app.git"
+  },
+  "author": "Nurhuda Joantama Putra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nurhudaaa/simple-room-chat-app/issues"
+  },
+  "homepage": "https://github.com/Nurhudaaa/simple-room-chat-app#readme"
+}
